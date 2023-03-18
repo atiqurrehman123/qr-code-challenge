@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .container {
+        background-color: #d5e1ef;
+        height: 100vh;
+      }
+      .card-container {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .card {
+        background-color: #fffffd;
+        width: 14rem;
+        border-radius: 14px;
+        padding: 14px;
+        box-shadow: 0px 5px 15px -13px;
+      }
+      .card-img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+      }
+      .card-heading {
+        text-align: center;
+        margin: 1px auto;
+        padding: 12 px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .card-content {
+        text-align: center;
+        margin: 1px auto;
+        padding: 12px;
+        font-size: 14px;
+        color: #6d7176;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="./images/image-qr-code.png"
+            alt="qr-code"
+            class="card-img"
+          />
+          <h5 class="card-heading">
+            Improve your front-end <br />
+            skills by building projects
+          </h5>
+          <p class="card-content">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
